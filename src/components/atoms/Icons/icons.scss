@@ -1,0 +1,39 @@
+// Style applied to all icons
+.icon-wrapper {
+  div {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-color: rgba(#000000, 0);
+    width: 21px;
+    height: 17px;
+  }
+}
+
+// all icons
+.icon-social-medium {
+  background-image: url("../../../assets/icons/medium.svg");
+}
+
+.icon-social-twitter {
+  background-image: url("../../../assets/icons/twitter.svg");
+}
+
+.icon-social-telegram {
+  background-image: url("../../../assets/icons/telegram.svg");
+}
+
+.icon-hart {
+  background-image: url("../../../assets/icons/hart.svg");
+}
+
+.icon-external {
+  background-image: url("../../../assets/icons/external.svg");
+}
+
+.icon-verified {
+  background-image: url("../../../assets/icons/verified.svg");
+}
+
+.icon-logo {
+  background-image: url("../../../assets/icons/kitchenft-logo.svg");
+}

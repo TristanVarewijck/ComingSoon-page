@@ -1,0 +1,54 @@
+// NFT card
+@import "../../../App.scss";
+
+.card {
+  border-radius: 10px;
+  position: relative;
+  border: none;
+  display: inline-block;
+
+  .image-container {
+    background-color: #f5fff9;
+    height: 245px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-body {
+    background-color: $white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 8px;
+
+    .left-side {
+      background-color: $white;
+      margin-left: 6px;
+      margin-right: 1.5em;
+    }
+
+    .right-side {
+      background-color: $white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 6px;
+    }
+    .card-title {
+      font-size: 10px;
+      font-weight: 500;
+      opacity: 72%;
+      color: $black;
+      background-color: $white;
+      margin-bottom: 4px;
+    }
+    .card-text {
+      color: $black;
+      font-size: 13px;
+      background-color: $white;
+      font-weight: bold;
+    }
+  }
+}
